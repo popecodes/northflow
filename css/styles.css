@@ -119,3 +119,58 @@ body{
     font-size: 1.4em;
     margin-left: 25px;;
 }
+
+
+/*process-bd*/
+.content-size{
+    width: 70vw;
+    margin: auto;
+}
+.process-bd h2{
+    margin-top: 40px;
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.process-bd p{
+    font-size: 1.6em;
+    text-align: center;
+}
+.process-bd-visual{
+    display: flex;;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    
+}
+.steps{
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    border: 2px solid #1E293B ;
+    border-radius: 30px;
+    transition: 0.3s smooth;
+}
+.steps:hover{
+    transform: scale(0.9);
+}
+.left{
+    display: flex;;
+    align-items: center;
+}
+.left img{
+    width: 200px;
+    margin: 30px;;;
+}
+
+.right{
+    width: 500px;
+    margin: 20px;
+    margin-right: 40px;
+    font-size: 0.8em;
+}
+.right p, .right h2{
+    text-align: justify;
+}
