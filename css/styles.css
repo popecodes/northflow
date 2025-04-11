@@ -9,7 +9,7 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     color: #1E293B;
 }
-.navlist li a {
+.navlist li a, .sign-in a{
     text-decoration: none;
     color: #1E293B;
     font-weight: bold;
@@ -35,6 +35,7 @@ body{
     background-color: #F9FAFB;
     
 }
+
 .logo{
     width: 300px;
     margin-left: 10px;
@@ -43,7 +44,21 @@ body{
     
     width: 1000px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;;
+}
+.sign-in{
+    background-color: #F97316;
+    padding: 5px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+.sign-in a{
+    color: #F9FAFB;
+}
+.sign-in:hover{
+    cursor: pointer;
+    transform: scaleX(1.2);
 }
 #hero{
     width: 100vw;
