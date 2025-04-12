@@ -201,6 +201,7 @@ body{
 /*mission-1*/
 #mission-1{
     background-color: rgba(175, 171, 171, 0.596);
+    height: 120px;
 }
 
 
@@ -217,7 +218,61 @@ body{
 }
 #mission-1 .content-size hr{
     width: 82%;
+    margin: 0 auto 15px;
+    
+}
+ /* mission-2 */
+ .mission-2-container {
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     margin: 20px auto;
+    border: 2px solid;
+ }
+
+ .leftimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 auto;
     margin: auto;
     
 }
-/*mission-2*/
+    
+
+ .leftimg img {
+     width: 300px;
+     height: auto;
+     
+ }
+
+ .righttext {
+     flex: 1;
+     max-width: 40%;
+     text-align: left;
+    margin: auto;
+ }
+ .righttext h2{
+    font-size: 3em;
+    margin-bottom: 5px;
+ }
+ .righttext h3{
+    margin-bottom: 15px;
+    font-size: 1.6em;
+ }
+ .righttext p{
+    margin-bottom: 30px;
+    font-size: 1.3em;
+ }
+
+  .righttext ul{
+    
+    list-style: none;
+  }
+ .righttext ul li{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+ }
+ .righttext ul li::before {
+     content: '✓  ';
+ }
