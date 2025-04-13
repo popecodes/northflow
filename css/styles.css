@@ -313,3 +313,76 @@ body{
     padding-bottom: 12px;
     color: rgb(79, 118, 226);
 }
+.topic-h2{
+    margin-bottom: 20px;
+}
+
+.bg-img{
+    margin-top: 50px;
+    width: 100%;
+    
+}
+.bg-img img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    position: relative;
+    
+}
+.bg-text{
+    color: white;
+    position: absolute;
+    top: 500%;
+    text-align: left;
+    left: 22%;
+    width: 530px;
+    font-size: 1.4em;
+}
+
+.mini-cta-button{
+    width: 40%;
+    height:auto;
+    padding: 8px;
+    margin: 20px auto 0;
+    font-size: 1em;
+    border-radius: 12px;
+    background-color: #F97316;
+    color: white;
+    font-weight: bold;
+}
+.mini-cta-button:hover{
+    background-color: #f0893f;
+    cursor: pointer;
+}
+.bg-text-2{
+    color: white;
+    text-align: left;
+    position: absolute;
+    top: 500%;
+    right: 22%;
+    font-weight: bold;
+    
+}
+.bg-text-2 ul li{
+    margin-bottom: 45px;
+    list-style: none;
+}
+
+.bg-text-2 ul li::before{
+    content: "";
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.li1::before{
+    background-image: url("/assets/conference-32.png")
+}
+.li2::before{
+    background-image: url("/assets/us-dollar-32.png")
+}
+.li3::before {
+    background-image: url("/assets/banknotes-32.png")
+}
