@@ -278,3 +278,38 @@ body{
  .righttext ul li::before {
      content: '✓  ';
  }
+
+ /*#whatwecover*/
+
+#whatwecover h2, .h3{
+    text-align: center;
+}
+#whatwecover h2{
+    margin: 60px 0 20px auto;
+    font-size: 2em;
+}
+.h3{
+    margin: auto;
+    width: 900px;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.topics{
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.topicbox{
+    margin-top: 40px;
+    width: 200px;
+    text-align: left;
+    
+}
+.topicbox h3{
+    font-size: 1.4em;
+    padding-bottom: 12px;
+    color: rgb(79, 118, 226);
+}
