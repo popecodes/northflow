@@ -139,22 +139,19 @@ body{
 .process-bd-visual{
     display: flex;;
     flex-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
+    justify-content: space-evenly;
     margin-top: 50px;
     
 }
 .steps{
     padding: 10px;
     width: 600px;
-    height: 400px;
+    height: 350px;
     display: flex;
-    border: 2px solid #1E293B ;
+    border: 1px solid #1E293B ;
     border-radius: 30px;
     transition: 0.3s smooth;
-}
-.steps:hover{
-    transform: scale(0.9);
+    margin-bottom: 40px;
 }
 .left{
     display: flex;
@@ -169,11 +166,12 @@ body{
     width: 500px;
     margin: 20px;
     margin-right: 40px;
-    font-size: 0.8em;
+    font-size: 0.7em;
 }
 .right p, .right h2{
     text-align: justify;
 }
+
 
 #brand-exp h2, #brand-exp h3{
     text-align: center;
@@ -183,9 +181,15 @@ body{
 }
 #brand-exp img{
     width: 100%;
-    margin-top: 1px;
 }
-
+.bigscale{
+    max-width: 85%;
+    margin: auto;
+}
+.smallscale{
+    max-width: 80%;
+    margin: auto;
+}
 #brand-exp h3{
     font-size: 2em;
     margin-top: 5px;
@@ -320,6 +324,7 @@ body{
 .bg-img{
     margin-top: 50px;
     width: 100%;
+    margin-bottom: 50px;
     
 }
 .bg-img img{
@@ -332,7 +337,7 @@ body{
 .bg-text{
     color: white;
     position: absolute;
-    top: 500%;
+    top: 472%;
     text-align: left;
     left: 22%;
     width: 530px;
@@ -358,7 +363,7 @@ body{
     color: white;
     text-align: left;
     position: absolute;
-    top: 500%;
+    top: 472%;
     right: 22%;
     font-weight: bold;
     
@@ -386,3 +391,46 @@ body{
 .li3::before {
     background-image: url("/assets/banknotes-32.png")
 }
+
+/*#testimonials*/
+#testimonials h2, #testimonials p{
+    text-align: center;
+    
+}
+#testimonials h2{
+    font-size: 2.4em;
+}
+#testimonials p{
+    font-size: 1.3em;
+    padding: 0 20px 20px;
+}
+.testimonials-container img{
+    width: 507px;
+    height: 315px;
+    margin: 30px 0;
+    border: 2px solid;
+    object-fit: contain;
+}
+.testimonials-container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.trustpilot-container{
+    display: flex;
+    justify-content: center;
+}
+.trustpilot{
+    width: 200px;
+}
+
+.more-reviews{
+    color:rgb(79, 118, 226);
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
