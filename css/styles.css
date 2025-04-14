@@ -150,7 +150,7 @@ body{
     display: flex;
     border: 1px solid #1E293B ;
     border-radius: 30px;
-    transition: 0.3s smooth;
+    
     margin-bottom: 40px;
 }
 .left{
@@ -434,3 +434,39 @@ body{
     padding: 10px;
 }
 
+/*metrics*/
+#metrics{
+    background-color: rgba(218, 215, 215, 0.596);
+}
+#metrics .content-size h2{
+    text-align: center;
+    font-size: 1.8em;
+    padding-top: 40px;
+    margin-top: 12px;
+}
+.metrics-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    padding-bottom: 30px;
+}
+.metric-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    text-align: left;
+    max-width: 250px;
+    height: 150px;
+    font-size: 1.3em;
+}
+.bottom img{
+    padding-top: 5px;
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+}
+.top p::before{
+    content: "✔️";
+}
